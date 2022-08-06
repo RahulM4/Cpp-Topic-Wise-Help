@@ -1,0 +1,1 @@
+{"name":"Local: 890_find_and_replace_pattern","url":"e:\\Cpp-Topic-Wise-Help-1\\06_String\\890_find_and_replace_pattern.cpp","tests":[{"id":1659168500953,"input":"abc deq mee aqq dkd ccc\nabb","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp-Topic-Wise-Help-1\\06_String\\890_find_and_replace_pattern.cpp","group":"local","local":true}

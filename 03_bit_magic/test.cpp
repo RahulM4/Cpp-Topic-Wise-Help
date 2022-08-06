@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long int
 // int mostWordsFound(vector<string> &sentences)
 // {
 //     int ans = 1;
@@ -30,36 +31,26 @@ using namespace std;
 //     return maximum;
 // }
 
-int setKthBitByLeftShift(int n, int k)
-{
-    int maskvalue = 1, i = 0;
-    while (k > i)
-    {
-        maskvalue <<= 1;
-        i++;
-    }
-    if (n & maskvalue)
-        cout << "SET";  
-    else
-        cout << "NOT";
-}
 
-int setKthBitByRightShift(int n, int k)
+void code()
 {
-    if ((n >> k) & 1)
-        cout << "SET";
-    else
-        cout << "NOT";
+    int n, m;
+    cin>>n>>m;
+    string s1, s2;
+    cin>>s1;
+    cin>>s2;
+    
+
 }
 
 int main()
-{
-    int n, k;
-    cin >> n >> k;
-    cin >> k;
-    setKthBitByRightShift(n,k);
-    cout << endl;
-    setKthBitByLeftShift(n, k);
+{ 
+    ll t;
+    cin>>t;
+    while(t--)
+    {
+        code();
+    }
+    
 
-    // cout<<maxvalue(a,n);
 }
